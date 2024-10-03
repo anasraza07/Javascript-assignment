@@ -1,0 +1,57 @@
+Class 01:
+course outline & course books = sir ghous github links
+programming language = human language ki tarh hoti hai jo computer se baat krne main help krti hai beech main translator hota hai jo translate krke smjhaata hai computer ko
+high level programming language = insaani language se qareeb hoti hai
+low level programming language = computer se qareeb hoti hai
+interpreter = jo eik eik line translate krta hai, javascript interpreter use krti hai eik eik line chalti hai line by line
+compiler = jo complete hone ke baad eik saath translate krdeta hai computer ko
+javascript = browser ke liye bani hai sirf but phr baad main nodejs create kia gaya javascript ko kahi aur bhi run krne ke liye (nodejs is a rnutime)
+ecmascript (a standard for javascript and verisons)
+variables = data store krne ke liye use hote hain
+var, let and const difference = var global scope main store hota hai let aur const nhi hotay, var ka function scope hai let aur const ka block scope hai, var reassign aur redeclare hoskta hai let aur const redeclare nhi hotay aur const to reassign bhi nhi hoskta, var main hoising bhi hota hai but undefined hota hai aur let const main no hoisting
+reference error
+syntax error
+type error
+global object (window)
+airthmetic operators
+post increment jahan use karenge wahan to old value dega but baad main incremented value dega (+1) pre increment pehle hi krke incremented value dega
+
+
+Class 02
+if statements = if, else if jitne marzi phr else likhte hain is main
+comparison operator = (>, <, ===, ==, !==, != etc). Best practice yehi hai ke === aur == ko apni apni jaga use kia jaaye hr jaga === use naa kia jaaye.
+logical operator = (&& aur || operator) eik and hai eik or hai 'and' main dono values true hona zaroori hai first false hui to wahi ruk jaayega, 'or' main koi bhi eik ka true hona zaroori hai first value true milgai bs ruk jayega wahi
+switch case = jb kisi eik value pr multiple conditions check krni ho to ye use hota hai yahan hr chz ka javascript main apna purpose hai
+best practices / beautiful code / hr project pe dil se kaam kro
+arrays and its properties & methods = multiple data save krwaane ke liye array use hota hai
+(arr.length = 0) => is se array empty hojaata hai
+arr.push return krta hai = array ki length
+arr.pop return krta hai = jo element remove kia hai
+arr.unshift return krta hai = array ki length
+arr.shift return krta hai = jo element remove kia hai
+arr.splice return krta hai = deleted values ki array agr nhi hoti to empty array
+arr.splice(index jahan se start krna hai, deleteCount, values agr add krni hain)
+arr.slice() return krta hai = new array (given vales se copy krke)
+arr.slice(index jahan se start krna hai, index jahan tk end krna hai but wo exclusive ho)
+for loop = sbse zaada use hone waala loop
+synchronous and asynchronous code = synchronous code ka mtlb line by line chalega jese for loop poora run ho kr hi next line pe jaata hai, asynchronous code ka mtlb code next line pe chala jayega aur saath saath wo asynchronous code bhi run hojayega apne time pr
+setTimeout = ye javascript ka apna nhi hota balke web api hoti hai eik tarh ki jo browser se aati hai iske andr ka code asynchronous kehlaata hai
+do while and while loop = while loop jb use krte hain jb aapko confirm ho itni hi iteration honi hai aur do while jb use krte hain jb apko eik baar iteration krwaani hi ho
+functions, arguments, parameters = 
+hoising with normal function and with var, let keyword = normal function main hoisting hojaati hai jbke variable ke saath ya kisi aur tareeqe se function banaane pr hoising nhi hoti var keyword se variable banaane pr sirf variable hi ooper jaata hai function nhi jaata that's why error aata hai varName is not a function
+IIFE = special benifit iska aur aksar jbhi use krte hain jb hamain koi private variables banaane ho aur iske andr hi kaam krke bahar access naa dena ho e.g. backend connection code etc. But iife se pehle semicolon lagaana zaroori hai ooper waale code pr
+arrow function = shortcut provide krta hai function ka return statement one line main ho to return keyword hat jaata hai, aur parameter eik hi ho to parenthesis bhi hat jaate hain
+this = current scope direct krta hai output main window object deta hai function ke andr 'this' ki value actual main undefined hoti hai but javascript ke eik concept ki waja se jahan jahan 'this' undefined ho wahan bhi window object rkhdia jaata hai 
+'use strict' = ye javascript file ke top pr likhdene se javascript strict hojaati hai jis se phr undefined undefined hi rahega this ki value main
+this in arrow function = arrow function ke andr waala this wohi value deta hai jo uske parent ke this ki value hoti hai
+Implicit Binding = Jab tum ek method ko kisi object ke sath call karte ho, to this automatically us object ko refer karta hai. Is case mein obj.getName() mein this obj ko refer karta hai.
+Function Call Binding = Jab tum ek function ko bina kisi object ke call karte ho (jaise getName()), tab JavaScript mein this global object ko refer karta hai
+
+
+
+Class 03
+callback
+arrays method (forEach, map, reduce, filter)
+course related questions (ui screens)
+Math methods
+Dates

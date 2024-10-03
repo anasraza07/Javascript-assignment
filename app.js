@@ -482,3 +482,57 @@
 // let operation = (prompt('Enter any operator (+, -, *, /, %'));
 // let result = eval(firstNum + operation + secondNum);
 // alert('Result is: ' + result);
+
+// console.log(this)
+// function abc() {
+//     console.log(this)
+// }
+// abc()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function getPermutations(string) { // string = 'a'
+    let result = []; 
+
+    // Agar string ki length 1 ya us se kam hai, bas wahi return kar do
+    if (string.length <= 1) { // true
+        return [string]; 
+    }
+
+    // Loop ke zariye har character ke permutations banao
+    for (let i = 0; i < string.length; i++) { // string = 'saw' 
+
+        // Current character ko lo
+        let currentChar = string[i]; // currentChar = 's'
+        
+        // Remaining characters banao, i-th character ko chhod ke
+        let remainingChars = string.slice(0, i) + string.slice(i + 1); // remainingChars = 'aw'
+
+        // Recursion se baaki characters ka permutation nikaalo
+        let remainingPerms = getPermutations(remainingChars); // remainingPerms = ['aw', 'wa']
+
+        // Loop ke zariye remainingPerms ko result mein add karo
+        for (let j = 0; j < remainingPerms.length; j++) {
+            result.push(currentChar + remainingPerms[j]); // result = ['aw', 'wa']
+        }
+    }
+
+    return result;
+};
+
+// Function call karo aur result dekho
+let output = getPermutations("saw");
+console.log(output);
