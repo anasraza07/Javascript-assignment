@@ -1,0 +1,53 @@
+Strings ko reverse karne ke liye loop ka istemal karna hai. Yeh approach string ke characters ko last se pehle tak access karne ki facility deti hai.
+Do strings ko anagram check karne ke liye dono strings ko sort karna hai. Agar dono sorted strings same hain, toh woh anagrams hain. Strings ko sort karne ke liye split, sort, aur join methods ka istemal hota hai. ya toh character frequencies count kar sakte hain, ya phir dono strings ko sort karke compare kar sakte hain.
+Palindrome main string ko ulta kar ke check karna hota hai ke kya original aur reversed string same hain ya nahi. Loops ke through ya built-in methods ke zariye string ko reverse kar ke comparison kar sakte hain.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FOCUS TOPICS
+Strings:
+Reverse strings
+Anagrams
+Palindrome checks
+Substrings
+
+Arrays:
+Array manipulation (sorting, merging, etc.)
+Searching (linear search, binary search)
+Two-pointer technique
+
+Loops and Conditions:
+Nested loops
+Conditional statements for filtering and selection
+
+Basic Recursion:
+Factorial calculation
+Fibonacci series
+Basic backtracking (like permutations, combinations)
+
+Basic Sorting and Searching:
+Bubble sort, selection sort, insertion sort (basic sorting algorithms)
+Understanding searching algorithms
+
+Practice Plan:
+Week 1: Strings
+3 questions on string manipulation (reversal, palindrome, substring)
+Week 2: Arrays
+3 questions on array operations (sorting, searching, merging)
+Week 3: Loops and Conditions
+3 questions focusing on loops and conditionals
+Week 4: Basic Recursion
+3 questions using recursion (factorial, Fibonacci, permutations)
+Repeat the cycle, gradually increasing the complexity of the problems as you feel comfortable.

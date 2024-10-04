@@ -1,2 +1,0 @@
-Strings ko reverse karne ke liye loop ka istemal karna hai. Yeh approach string ke characters ko last se pehle tak access karne ki facility deti hai.
-Do strings ko anagram check karne ke liye dono strings ko sort karna hai. Agar dono sorted strings same hain, toh woh anagrams hain. Strings ko sort karne ke liye split, sort, aur join methods ka istemal hota hai.
